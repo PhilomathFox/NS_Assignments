@@ -1,0 +1,59 @@
+1) select* 
+from customers
+2) select customerID 
+from customers
+3) select customerID,customerName 
+from customers
+4) select contactName,address,city 
+from customers
+5) select country 
+from customers
+6) select customerID,customerName,country 
+from customers
+7) select orderID 
+from order
+8) select customerID 
+from orders
+9) select customerID,employeeID,orderDate 
+from orders
+10) select shipperID,orderID 
+from orders
+11) select orderDate,Country 
+from customers,orders
+12) select orderDetailID 
+from orderdetails
+13) select shipperName,phone 
+from shippers
+14) select lastname,firstname 
+from employees
+15) select lastname,firstname,notes 
+from employees
+16) select birthDate 
+from employees
+17) select employeeID,photo 
+from employees
+18) select categoryName,Description 
+from categories
+19) select productID,productName 
+from products
+20) select supplierID 
+from products
+21) select unit,price 
+from products
+22) select country 
+from customers
+23) select country 
+from customers
+
+24) There are 8 tables
+25)Customers(91) Categories(8) employees(10)
+OrderDetails(518) Orders(196) Products(77)
+Shippers(3) Suppliers(29)
+
+26) Select make,model
+	from cars
+	where drivetrain = 'all'
+
+27) Select origin,type
+	from cars
+	where origin = 'USA';
