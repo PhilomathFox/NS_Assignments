@@ -53,7 +53,9 @@ Shippers(3) Suppliers(29)
 26) Select make,model
 	from cars
 	where drivetrain = 'all'
+	- 644 Q
 
 27) Select origin,type
 	from cars
 	where origin = 'USA';
+	- 1029 Q
