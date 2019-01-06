@@ -10,7 +10,7 @@ Zero query's affected
 3)select*
 from customers
 where country='Austria' and city='Graz'
-one query affected
+One query affected
 
 4)select*
 from customers
@@ -89,7 +89,7 @@ where not country='Germany'
 
 19)SELECT * 
 FROM Customers
-WHERE Country='Germany' AND (City='Mannheim' OR City='München')
+WHERE Country='Germany' AND (City='Mannheim' OR City='MÃ¼nchen')
 Two records affected
 
 20).SELECT * 
